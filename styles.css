@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+}
+header img {
+    max-width: 100%; /* чтобы избежать переполнения родительского элемента */
+    height: auto; /* чтобы сохранить пропорции изображения */
+}
+
+nav {
+    background-color: #c7c7c7;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+.left-align {
+    text-align: left;
+}
+footer {
+    background-color: #c7c7c7;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    color: #666666;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to right, #ffffff, #bb9999); /* Измените цвета на желаемые */
+}
+  
+  #addToCartBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    color: #3498db;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.product-container {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%; 
+    margin: 0 auto; 
+    background: linear-gradient(to right, #e0e0e0, #b99090); 
+    padding: 20px; 
+    
+}
+
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+.add-to-cart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #009e1a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+.add-to-cart-btn:hover {
+    background-color: #25db01;
+  
+}
